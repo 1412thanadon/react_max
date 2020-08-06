@@ -7,7 +7,6 @@ import './style.css';
 
 class App extends Component {
   render() {
-	if (chk != "yes"){
    return (
       <div className="App">
         <div className="App-header">
@@ -16,7 +15,6 @@ class App extends Component {
         </div>
       </div>
     );
-	}
   }
 }
 
